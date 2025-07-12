@@ -1,5 +1,5 @@
 module "ec2" {
-    source = "../terraform-aws-ec2-module"
+    source = "../Terraform_Modules/terraform-aws-ec2-module"
     sg_id = "sg-0e978039cdb6c3057"
     instance_type = "t3.small"
 }
